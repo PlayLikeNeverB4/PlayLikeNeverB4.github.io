@@ -40,14 +40,6 @@ const Navbar = ({ onThemeChange }) => {
       >
         CV
       </a>
-      <Classic duration={500}
-               className={classNames('text-3xl', {
-                 'text-yellow-300': theme === 'light',
-                 'text-yellow-200': theme === 'dark',
-               })}
-               onToggle={handleThemeToggle}
-               toggled={theme === 'dark'}
-      />
       <div className="flex relative text-black items-end gap-6 md:gap-2 md:ml-auto">
         <a href="mailto:george.marcus922@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} size="2x" />
@@ -78,6 +70,14 @@ const Navbar = ({ onThemeChange }) => {
               George Mărcuș
               {' />'}
             </a>
+            <Classic duration={500}
+               className={classNames('text-3xl ml-3', {
+                 'text-yellow-300': theme === 'light',
+                 'text-yellow-200': theme === 'dark',
+               })}
+               onToggle={handleThemeToggle}
+               toggled={theme === 'dark'}
+            />
             <button className="font-bold text-black md:hidden"
                     onClick={handleClick}>
               <FontAwesomeIcon icon={faBars} size="2x" />
