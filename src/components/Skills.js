@@ -3,12 +3,7 @@ import { faGem } from '@fortawesome/free-solid-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import TicTacToe from './TicTacToe'
 import { useContext } from 'react'
-import { ThemeContext } from '../theme'
-
-/* Generated with https://codepen.io/sosuke/pen/Pjoqqp to get the color #D30001 */
-const RED_FILTER = 'invert(15%) sepia(89%) saturate(4717%) hue-rotate(350deg) brightness(77%) contrast(124%)'
-/* Generated with https://codepen.io/sosuke/pen/Pjoqqp to get the color #FFFFFF */
-const WHITE_FILTER = 'invert(99%) sepia(1%) saturate(0%) hue-rotate(79deg) brightness(108%) contrast(100%)'
+import { ThemeContext, RED_FILTER, WHITE_FILTER } from '../theme'
 
 const Skills = () => {
   const theme = useContext(ThemeContext)
@@ -16,7 +11,7 @@ const Skills = () => {
   return (
     <div id="skills">
       <h1 className="text-3xl">Skills</h1>
-      <div className="flex flex-col gap-y-7 p-7">
+      <div className="flex flex-col gap-y-7 p-7 pt-2">
         <div className="flex flex-wrap justify-center">
           <div className="h-36 w-1/2 sm:w-1/3 md:w-1/6 flex items-center justify-center">
             <img src="/assets/rails.svg"

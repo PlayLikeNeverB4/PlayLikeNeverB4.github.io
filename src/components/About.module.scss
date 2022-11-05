@@ -1,0 +1,22 @@
+tr {
+  height: 40px;
+  td:first-child {
+    width: 20px;
+  }
+  td:nth-child(2) {
+    min-width: 120px;
+  }
+  em {
+    font-style: normal;
+  }
+  &.personal {
+    td:first-child, em {
+      color: red;
+    }
+  }
+  &.professional {
+    td:first-child, em {
+      color: deepskyblue;
+    }
+  }
+}
