@@ -4,8 +4,8 @@ const About = () => (
   <div id="about">
     <h1 className="text-3xl">About Me</h1>
     <div className="px-7 pt-4 pb-14">
-      <ul className="list-disc">
-        <li>Romanian🇷🇴 Software Engineer</li>
+      <ul className="list-disc pl-5">
+        <li>Software Engineer from Romania🇷🇴</li>
         <li>Passionate about problem solving</li>
         <li>Obsessed with clean code</li>
         <li>Most excited when solving problems others couldn't solve</li>
