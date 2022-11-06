@@ -21,7 +21,7 @@ const App = () => {
     <ThemeContext.Provider value={theme}>
       <div className={`${themeClass} bg-white text-black`}>
         <Navbar onThemeChange={handleThemeChange} />
-        <main className="p-5">
+        <main className="p-5 max-md:px-2">
           <About />
           <Skills />
           <Projects />

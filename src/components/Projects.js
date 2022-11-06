@@ -27,7 +27,7 @@ const Project = ({ id, name, url, imageSrc, imageClass, imageComponent: ImageCom
 const Projects = () => (
   <div id="projects">
     <h1 className="text-3xl">Projects</h1>
-    <div className="flex flex-col gap-5 p-7">
+    <div className="flex flex-col gap-5 p-7 max-md:p-0">
 
       <Project id="w3champions"
                name="W3Champions"
@@ -78,11 +78,12 @@ const Projects = () => (
           Contributed to the infoarena.ro open source online judge, the most popular Romanian online judge by implementing a feature and preparing problems for contests.
         </p>
         <p>
-          Blog post when the feature was launched:
+          You can find the blog post when the feature was launched
           {' '}
           <a href="https://infoarena.ro/blog/statistici-problema" className="text-blue-400">
-            https://infoarena.ro/blog/statistici-problema
+            here
           </a>
+          .
         </p>
       </Project>
 

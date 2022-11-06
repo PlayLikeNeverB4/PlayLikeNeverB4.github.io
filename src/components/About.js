@@ -3,7 +3,7 @@ import styles from './About.module.scss'
 const About = () => (
   <div id="about">
     <h1 className="text-3xl">About Me</h1>
-    <div className="px-7 pt-4 pb-14">
+    <div className="px-7 pt-4 pb-14 max-md:px-2">
       <ul className="list-disc pl-5">
         <li>Software Engineer from Romania🇷🇴</li>
         <li>Passionate about problem solving</li>
