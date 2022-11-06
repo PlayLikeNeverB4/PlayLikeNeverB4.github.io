@@ -7,7 +7,7 @@ import Projects from './components/Projects'
 import Footer from './components/Footer'
 
 const App = () => {
-  const defaultTheme = getStoredTheme() || 'light'
+  const defaultTheme = getStoredTheme() || 'dark'
   const [ theme, setTheme ] = useState(defaultTheme)
   // Tailwind theme plugin has some weird logic, can't use `${theme}-theme`
   const themeClass = theme === 'dark' ? 'dark-theme' : ''
