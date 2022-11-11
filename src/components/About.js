@@ -17,7 +17,11 @@ const About = () => (
           <tr className={styles.professional}>
             <td>&bull;</td>
             <td>August 2022</td>
-            <td>Funemployment: created <em>this website</em>, contributed to <a href="#w3champions"><em>w3champions.com</em></a> and others</td>
+            <td>
+              Funemployment: created <em>this website</em>,
+              contributed to <a href="#w3champions"><em>w3champions.com</em></a>,
+              wrote my first <a href="https://medium.com/@georgemarcus92" target="_blank" rel="noreferrer"><em>medium article</em></a>
+            </td>
           </tr>
           <tr className={styles.personal}>
             <td>&bull;</td>
