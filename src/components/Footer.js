@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => (
   <footer className="py-7 flex flex-col gap-y-3">
     <div className="text-center">
-      &copy; {new Date().getFullYear()} George Mărcuș
+      &copy; {[ ...new Set([ 2022, new Date().getFullYear() ]) ].join('-')} George Mărcuș
     </div>
     <div className="flex gap-10 justify-center">
       <a href="mailto:george.marcus922@gmail.com">
