@@ -6,7 +6,7 @@ const Project = ({ id, name, url, imageSrc, imageClass, imageComponent: ImageCom
         <div className="w-28 flex justify-center items-center">
           {ImageComponent ? <ImageComponent /> : (
             <img src={imageSrc}
-              alt="w3champions.com"
+              alt={name}
               className={imageClass}
             />
           )}
