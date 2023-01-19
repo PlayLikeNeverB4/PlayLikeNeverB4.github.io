@@ -28,6 +28,23 @@ const Projects = () => (
   <div id="projects">
     <h1 className="text-3xl">Projects</h1>
     <div className="flex flex-col gap-5 p-7 max-md:p-0">
+      <Project id="lisudoku"
+               name="lisudoku"
+               url="https://lisudoku.xyz"
+               imageSrc="/assets/lisudoku.png"
+               imageClass="w-32 dark:bg-black"
+      >
+        <p>
+          Created {' '}
+          <a href="https://lisudoku.xyz" className="text-blue-400">lisudoku.xyz</a>,
+          an <a href="https://github.com/orgs/lisudoku/repositories" className="text-blue-400">open source</a>
+          {' '}
+          sudoku website.
+        </p>
+        <p>
+          Backend in Ruby on Rails, frontend in React and puzzle solver in Rust.
+        </p>
+      </Project>
 
       <Project id="w3champions"
                name="W3Champions"

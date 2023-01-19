@@ -20,7 +20,8 @@ const About = () => (
             <td>
               Funemployment: created <em>this website</em>,
               contributed to <a href="#w3champions"><em>w3champions.com</em></a>,
-              wrote my first <a href="https://medium.com/@georgemarcus92" target="_blank" rel="noreferrer"><em>medium article</em></a>
+              wrote my first <a href="https://medium.com/@georgemarcus92" target="_blank" rel="noreferrer"><em>medium article</em></a>,
+              created <a href="#lisudoku"><em>lisudoku.xyz</em></a>
             </td>
           </tr>
           <tr className={styles.personal}>
