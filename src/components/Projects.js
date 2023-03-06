@@ -39,7 +39,11 @@ const Projects = () => (
           <a href="https://lisudoku.xyz" className="text-blue-400">lisudoku.xyz</a>,
           an <a href="https://github.com/orgs/lisudoku/repositories" className="text-blue-400">open source</a>
           {' '}
-          sudoku website.
+          sudoku website and solver. The solver powers a {' '}
+          <a href="https://www.reddit.com/user/sudoku-solver-bot" className="text-blue-400">reddit bot</a>
+          {' '} that solves puzzle submissions on {' '}
+          <a href="https://www.reddit.com/r/sudoku" className="text-blue-400">r/sudoku</a>
+          .
         </p>
         <p>
           Backend in Ruby on Rails, frontend in React and puzzle solver in Rust.
