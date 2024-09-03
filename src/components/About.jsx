@@ -16,6 +16,13 @@ const About = () => (
         <tbody>
           <tr className={styles.professional}>
             <td>&bull;</td>
+            <td>August 2024</td>
+            <td>
+              My wonderful son was born 👶
+            </td>
+          </tr>
+          <tr className={styles.professional}>
+            <td>&bull;</td>
             <td>April 2023</td>
             <td>
               Joined <a href="https://neon.tech" target="_blank" rel="noreferrer"><em>Neon</em></a> 🐘
